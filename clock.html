@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p>Reloj para conteo de 60 segundos</p>
+	<button onclick="clock()">Iniciar</button>
+<script>
+function clock(){
+setInterval(function conteo() {
+	for (let i = 1; i <= 60; i++){
+		alert("Segundo " + i)
+	}
+}, 1000)
+}
+</script>
+
+</body>
+</html>
